@@ -1,0 +1,49 @@
+.row{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2{
+  display: inline-block;
+  max-width: 80%;
+}
+
+button{
+  background-color: #2f4dfd;
+  color: white;
+  height: 30px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+button:active{
+  background-color: #0221d5;
+}
+
+p{
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.joke-number{
+  border-bottom: 1px solid rgba(0,0,0,0.27);
+  padding-bottom: 15px;
+}
+
+/*.icon-small{*/
+  /*font-size: 150%;*/
+/*}*/

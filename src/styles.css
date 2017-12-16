@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/*como importar:*/
+/*https://blog.angularindepth.com/this-is-how-angular-cli-webpack-delivers-your-css-styles-to-the-client-d4adf15c4975 */
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/%40import*/
+@import "resources/vendor/css/ionicons.min.css";
+@import "resources/css/grid.css";
+@import "resources/css/normalize.css";
+@import "resources/css/basic-setup.css";
+@import "resources/css/style.css";

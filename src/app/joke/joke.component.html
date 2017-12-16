@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="joke-number">
+    <h2>Joke #{{joke?.id}}</h2>
+    <button (click)="refreshJoke()">Get another Joke <i class="icon-small ion-refresh"></i></button>
+  </div>
+  <div>
+    <p>{{joke?.text}}</p>
+  </div>
+</div>
